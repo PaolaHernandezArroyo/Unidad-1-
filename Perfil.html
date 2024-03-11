@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Cynthia</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: #b54df1;
+            font-family:Arial, Helvetica, sans-serif;
+            color:aliceblue; /* esto es para el color de letra*/
+            text-align:  center;
+        }
+        .perfil{
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            background-color: rgb(205, 127, 236);
+            padding: 20px;
+            box-shadow: 0 0 10px black;
+        }
+        .foto-perfil{
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
+    <div class="perfil">
+        <img src="c:\Users\Alex_\Downloads\panda.jpg" alt="Animalitos"
+        class="foto-perfil">
+        <h1 id="nombre">Nombre de perfil</h1>
+        <h3 id="especialidad">Especialidad del cetis</h3>
+        <h2>Gustos Personales</h2>
+        <ul>/*Con esto se crea una lista y el li es cada elemento*/</ul>
+        <li id="musica">Musica Favorita</li>
+        <li id="programas">Programas Favoritos</li>
+    </ul>
+    <h2>Informacion de Contacto</h2>
+    <p id="">Telefono</p>
+    <p id="">Correo</p>
+    <p id="">Biografia</p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded'), function(){
+            document.getElementById('nombre').textContent='Cynthia Barrios';
+            document.getElementById('especialidad').textContent='Programacion';
+            document.getElementById('musica').textContent='Rihana, The Weekend, Bruno Mars, Selena Gomez';
+            document.getElementById('Programas').textContent='Shark Tank, Casos de Crimen';
+            document.getElementById('Telefono').textContent='8999836825';
+            document.getElementById('Correo').textContent='barriosbautistapaola@gmail.com';
+            document.getElementById('Biografia').textContent='Soy de Reynosa Tamaulipas, tengo 16 años, cumplo el 10 de marzo, tengo 2 hermanos, voy en preparatoria en 4 semestre';
+        }
+    </script>
+
+</body>
+</html>
